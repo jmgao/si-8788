@@ -1,0 +1,3 @@
+package test;
+
+parcelable Foo;

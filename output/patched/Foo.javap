@@ -1,0 +1,41 @@
+Compiled from "Foo.scala"
+public class test.Foo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<test.Foo> CREATOR;
+    Signature: Landroid/os/Parcelable$Creator;
+
+  private final int value;
+    Signature: I
+
+  public static {};
+    Signature: ()V
+    Code:
+       0: getstatic     #21                 // Field test/Foo$.MODULE$:Ltest/Foo$;
+       3: invokevirtual #24                 // Method test/Foo$.CREATOR:()Landroid/os/Parcelable$Creator;
+       6: putstatic     #26                 // Field CREATOR:Landroid/os/Parcelable$Creator;
+       9: return        
+
+  public int describeContents();
+    Signature: ()I
+    Code:
+       0: iconst_0      
+       1: ireturn       
+
+  public void writeToParcel(android.os.Parcel, int);
+    Signature: (Landroid/os/Parcel;I)V
+    Code:
+       0: aload_1       
+       1: aload_0       
+       2: getfield      #36                 // Field value:I
+       5: invokevirtual #42                 // Method android/os/Parcel.writeInt:(I)V
+       8: return        
+
+  public test.Foo(int);
+    Signature: (I)V
+    Code:
+       0: aload_0       
+       1: iload_1       
+       2: putfield      #36                 // Field value:I
+       5: aload_0       
+       6: invokespecial #48                 // Method java/lang/Object."<init>":()V
+       9: return        
+}

@@ -1,0 +1,8 @@
+[error] /Users/josh/si-8788/target/android-gen/test/FooService.java:87: incompatible types
+[error] found   : java.lang.Object
+[error] required: test.Foo
+[error] _result = test.Foo.CREATOR.createFromParcel(_reply);
+[error]                                            ^
+[error] 1 error
+[error] (compile:compile) javac returned nonzero exit code
+[error] Total time: 1 s, completed Sep 16, 2014 2:20:19 PM
